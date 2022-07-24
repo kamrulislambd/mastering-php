@@ -1,8 +1,10 @@
 <?php
-$n = 12;
+$food = "Grap";
 
-if ($n % 2 == 0) {
-    echo "$n is even number";
+if ("tuna" == $food || "orange" == $food) {
+    echo "{$food} does not have vitamin D";
+} elseif ("apple" == $food) {
+    echo "{$food} has vitamin D";
 } else {
-    echo "$n is odd number";
+    echo "We don't know about {$food} if contains vitamin D";
 }
