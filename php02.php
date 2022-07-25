@@ -22,7 +22,7 @@ if ($condition1 && $condition2 && $condition3) {
 } else {
     echo "Condition Three";
 }
-*/
+
 //Ternary Operator
 $n = 12;
 $number = (12 == $n) ? "Twelve" : "A Number";
@@ -32,3 +32,16 @@ echo "\n";
 $year = 2013;
 $leapYear = ($year % 4 == 0 && ($year % 100 != 0 || $year % 400 == 0)) ? "Leap Year" : "Not a leap year";
 echo "$leapYear";
+*/
+
+//Switch Case
+
+$color = 'green';
+
+switch ($color) {
+    case "red":
+    case "green":
+        echo ucwords($color) . " My favorite color\n";
+    default:
+        echo "{$color} not my favourite color.";
+}
