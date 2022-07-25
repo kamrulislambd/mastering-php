@@ -1,6 +1,6 @@
 <?php
 //is leap year?
-$year = 2012;
+$year = 2024;
 if ($year % 4 == 0 && ($year % 100 != 0 || $year % 400 == 0)) {
     echo "{$year} is a leap year";
 } else {
