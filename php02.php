@@ -1,4 +1,5 @@
 <?php
+/*
 //is leap year?
 $year = 2024;
 if ($year % 4 == 0 && ($year % 100 != 0 || $year % 400 == 0)) {
@@ -21,3 +22,13 @@ if ($condition1 && $condition2 && $condition3) {
 } else {
     echo "Condition Three";
 }
+*/
+//Ternary Operator
+$n = 12;
+$number = (12 == $n) ? "Twelve" : "A Number";
+echo "$number";
+echo "\n";
+
+$year = 2013;
+$leapYear = ($year % 4 == 0 && ($year % 100 != 0 || $year % 400 == 0)) ? "Leap Year" : "Not a leap year";
+echo "$leapYear";
