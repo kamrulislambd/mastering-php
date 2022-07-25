@@ -32,7 +32,7 @@ echo "\n";
 $year = 2013;
 $leapYear = ($year % 4 == 0 && ($year % 100 != 0 || $year % 400 == 0)) ? "Leap Year" : "Not a leap year";
 echo "$leapYear";
-*/
+
 
 //Switch Case
 
@@ -50,7 +50,7 @@ switch ($color) {
 
 $n = -12;
 $r = $n % 2;
-/*
+
 switch ($r) {
     case 0:
         switch ($n) {
@@ -72,7 +72,7 @@ switch ($r) {
                 break;
         }
 }
-*/
+
 
 switch (true) {
     case ($r == 0 && $n > 0):
@@ -87,3 +87,16 @@ switch (true) {
     case ($r == -1 && $n < 0):
         echo "$n is a negative odd number";
 }
+*/
+$n = 13;
+$r = $n % 2;
+
+if ($r == 0) :
+    echo "Number is Even";
+    echo PHP_EOL;
+    echo "Some Text";
+else :
+    echo "Number is Odd";
+    echo PHP_EOL;
+    echo "Some Text++";
+endif;
