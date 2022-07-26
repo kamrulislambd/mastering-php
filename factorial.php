@@ -18,3 +18,12 @@ if ($result == 1) {
 } elseif ($result == -1) {
     echo "$x is less than $y";
 }
+
+echo PHP_EOL;
+//Null Colas Operator
+
+$default_lat = 23.25;
+$user_lat = 93.25;
+
+$lat = $user_lat ?? $default_lat;
+echo $lat;
