@@ -1,13 +1,6 @@
 <?php
-function isEven($n)
-{
-    if ($n % 2 == 0) {
-        return true;
-    }
-    return false;
-}
-
-$x = 12;
+include_once "externalfunction.php";
+$x = 17;
 if (isEven($x)) {
     echo "{$x} is Even Number.";
 } else {
